@@ -125,6 +125,7 @@
                 </div>
             </div>
         </div>
+        
 
         {{-- audio section --}}
 
@@ -238,7 +239,7 @@
 
             setInterval(() => {
                 updateCounter('singha-up', 'card1', sirenSound);
-            }, 1000); // 10 seconds interval for the first section
+            }, 10000); // 10 seconds interval for the first section
 
             setInterval(() => {
                 updateCounter('singha-up1', 'card2', sirenSound);

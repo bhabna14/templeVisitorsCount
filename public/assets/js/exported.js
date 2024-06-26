@@ -415,10 +415,10 @@ function statistics1() {
   var options1 = {
     series: [{
       name: 'IN DEVOTEES',
-      data: [44, 42, 57, 86]
+      data: [80000, 40000, 60000, 30000]
     }, {
       name: 'OUT DEVOTEES',
-      data: [34, 22, 37, 56]
+      data: [70000, 35000, 40000, 24000]
     }],
     chart: {
       type: 'bar',
@@ -427,7 +427,7 @@ function statistics1() {
     grid: {
       borderColor: '#f2f6f7'
     },
-    colors: [myVarVal || "#38cab3", "red"],
+    colors: [myVarVal || "#38cab3", "rgba(153,153,153,0.85)"],
     plotOptions: {
       bar: {
         colors: {
@@ -458,7 +458,7 @@ function statistics1() {
     },
     yaxis: {
       title: {
-        text: 'Growth',
+        text: 'No. Of People',
         style: {
           color: '#adb5be',
           fontSize: '14px',
@@ -468,10 +468,15 @@ function statistics1() {
         }
       },
       labels: {
-        formatter: function formatter(y) {
-          return y.toFixed(0) + "";
+        formatter: function (value) {
+          // Custom values
+          const customLabels = [0, 10000, 20000, 40000,60000, 80000, 100000];
+          return customLabels.includes(value) ? value : '';
         }
-      }
+      },
+      min: 0,
+      max: 100000,
+      tickAmount: 5
     },
     xaxis: {
       type: 'month',

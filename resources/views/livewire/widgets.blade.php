@@ -8,14 +8,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">109883</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">66094</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -23,7 +23,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">36984</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -47,13 +47,16 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">MAIN DWARA</h6>
+										<h6 class="main-dwara-heading" >MAIN DWARA</h6>
 										{{-- <span class="text-muted tx-12">Google, Inc.</span> --}}
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">35,502</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara1-up">10897</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-success fs-13 my-auto"><i class="fe fe-trending-up text-success me-2 ms-1 my-auto"></i>12.75%</span> --}}
 									</div>
 								</div>
@@ -62,13 +65,16 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">BEHARAN DWARA										</h6>
+										<h6 class="main-dwara-heading">BEHARAN DWARA										</h6>
 										{{-- <span class="text-muted tx-12">Microsoft Corporation, Inc.</span> --}}
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">25,364</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara2-up">9764</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-success"><i class="fe fe-trending-down text-danger me-2 ms-1 my-auto"></i>24.37%</span> --}}
 									</div>
 								</div>
@@ -77,12 +83,15 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">ANANDA BAZAR</h6>
+										<h6 class="main-dwara-heading">ANANDA BAZAR</h6>
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">14,635</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara3-up">6234</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-success"><i class="fe fe-trending-up text-success me-2 ms-1 my-auto"></i>15,63%</span> --}}
 									</div>
 								</div>
@@ -91,13 +100,16 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">LAXMI TEMPLE </h6>
+										<h6 class="main-dwara-heading">LAXMI TEMPLE </h6>
 										{{-- <span class="text-muted tx-12">Apple Corporation, Inc.</span> --}}
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">35,657</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara4-up">5657</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-danger"><i class="fe fe-trending-up text-success me-2 ms-1 my-auto"></i>12.54%</span> --}}
 									</div>
 								</div>
@@ -106,13 +118,16 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">BIMALA TEMPLE</h6>
+										<h6 class="main-dwara-heading">BIMALA TEMPLE</h6>
 										{{-- <span class="text-muted tx-12">Opera, Inc.</span> --}}
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">12,563</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara5-up">4968</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-danger"><i class="fe fe-trending-down text-danger me-2 ms-1 my-auto"></i>15.12%</span> --}}
 									</div>
 								</div>
@@ -121,13 +136,16 @@
 								<div class="d-flex">
 									<img src="{{asset('assets/img/visitor/nilachakra.png')}}" alt="img" class="ht-30 wd-30 me-2">
 									<div class="">
-										<h6 class="">JAGAMOHAN</h6>
+										<h6 class="main-dwara-heading">JAGAMOHAN</h6>
 										{{-- <span class="text-muted tx-12">Opera, Inc.</span> --}}
 									</div>
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16">12,563</span>
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara6-up">8563</span><div class="live-indicator7">
+											<span class="dot"></span>
+											<span>Live</span>
+										</div>
 										{{-- <span class="text-danger"><i class="fe fe-trending-down text-danger me-2 ms-1 my-auto"></i>15.12%</span> --}}
 									</div>
 								</div>
@@ -169,8 +187,8 @@
 								</div>
 								<div class="pb-0 mt-0">
 									<div class="">
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="singha-up" class="text-success">453786</span> </p>
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="singha-down" class="text-success">453565</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="singha-up" class="text-success">6378</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="singha-down" class="text-success">3986</span> </p>
 									</div>
 								</div>
 							</div>
@@ -193,8 +211,8 @@
 								</div>
 								<div class="pb-0 mt-0">
 									<div class="">
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="vyaghra-up" class="text-success">453786</span> </p>
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="vyaghra-down" class="text-success">453565</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="vyaghra-up" class="text-success">3948</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="vyaghra-down" class="text-success">1938</span> </p>
 									</div>
 								</div>
 							</div>
@@ -217,8 +235,8 @@
 								</div>
 								<div class="pb-0 mt-0">
 									<div class="">
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="hasti-up" class="text-success">453786</span> </p>
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="hasti-down" class="text-success">453565</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="hasti-up" class="text-success">5993</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="hasti-down" class="text-success">2976</span> </p>
 									</div>
 								</div>
 							</div>
@@ -241,8 +259,8 @@
 								</div>
 								<div class="pb-0 mt-0">
 									<div class="">
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="ashwa-up" class="text-success">453786</span> </p>
-										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="ashwa-down" class="text-success">453565</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-up mx-2 text-success"></i> <span id="ashwa-up" class="text-success">3498</span> </p>
+										<p class="mb-0 fs-14 text-muted"><i class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span id="ashwa-down" class="text-success">2176</span> </p>
 									</div>
 								</div>
 							</div>
@@ -258,14 +276,14 @@
 		
 		<div class="row row-sm mt-4">
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">453786</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">14897</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
 					<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 				</div>
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">453786</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">4245</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
@@ -273,7 +291,7 @@
 				</div>
 	
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">453786</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">10897</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
@@ -313,11 +331,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="dakhina-up">456565</span>
+											<span class="text-success" id="dakhina-up">6348</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="dakhina-down">453565</span>
+											<span class="text-success" id="dakhina-down">3455</span>
 										</p>
 									</div>
 								</div>
@@ -345,11 +363,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="uttar-up">456565</span>
+											<span class="text-success" id="uttar-up">3456</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="uttar-down">453565</span>
+											<span class="text-success" id="uttar-down">2345</span>
 										</p>
 									</div>
 								</div>
@@ -377,11 +395,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="purba-up">456565</span>
+											<span class="text-success" id="purba-up">6889</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="purba-down">453565</span>
+											<span class="text-success" id="purba-down">3267</span>
 										</p>
 									</div>
 								</div>
@@ -409,11 +427,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="paschima-up">456565</span>
+											<span class="text-success" id="paschima-up">4688</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="paschima-down">453565</span>
+											<span class="text-success" id="paschima-down">2544</span>
 										</p>
 									</div>
 								</div>
@@ -430,14 +448,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">11793</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">2849</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -445,7 +463,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">9764</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -489,11 +507,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i>
-												<span id="cam1-up" class="text-white">5,74,12</span>
+												<span id="cam1-up" class="text-white">2355</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-												<span id="cam1-down" class="text-white">453565</span>
+												<span id="cam1-down" class="text-white">1232</span>
 											</p>
 										</div>
 									</div>
@@ -520,11 +538,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i>
-												<span id="cam2-up" class="text-white">47,589</span>
+												<span id="cam2-up" class="text-white">3656</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-												<span id="cam2-down" class="text-white">453565</span>
+												<span id="cam2-down" class="text-white">2475</span>
 											</p>
 										</div>
 									</div>
@@ -551,11 +569,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i>
-												<span id="cam3-up" class="text-white">8,943</span>
+												<span id="cam3-up" class="text-white">2895</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-												<span id="cam3-down" class="text-white">453565</span>
+												<span id="cam3-down" class="text-white">1989</span>
 											</p>
 										</div>
 									</div>
@@ -582,11 +600,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i>
-												<span id="cam4-up" class="text-white">5,74.12</span>
+												<span id="cam4-up" class="text-white">4686</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-												<span id="cam4-down" class="text-white">453565</span>
+												<span id="cam4-down" class="text-white">2568</span>
 											</p>
 										</div>
 									</div>
@@ -613,11 +631,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i>
-												<span id="cam5-up" class="text-white">453786</span>
+												<span id="cam5-up" class="text-white">2076</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted text-white">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-												<span id="cam5-down" class="text-white">453565</span>
+												<span id="cam5-down" class="text-white">1023</span>
 											</p>
 										</div>
 									</div>
@@ -630,14 +648,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">9958</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">3242</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -645,7 +663,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">6234</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -690,11 +708,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-												<span class="text-success"  id="laxmi-up">456565</span>
+												<span class="text-success"  id="laxmi-up">8667</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-												<span class="text-success"  id="laxmi-down">453565</span>
+												<span class="text-success"  id="laxmi-down">3687</span>
 											</p>
 										</div>
 									</div>
@@ -741,11 +759,11 @@
 										<div class="">
 											<p class="mb-0 fs-14 text-muted">
 												<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-												<span class="text-success" id="bimala-up">456565</span>
+												<span class="text-success" id="bimala-up">9087</span>
 											</p>
 											<p class="mb-0 fs-14 text-muted">
 												<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-												<span class="text-success" id="bimala-down">453565</span>
+												<span class="text-success" id="bimala-down">5674</span>
 											</p>
 										</div>
 									</div>
@@ -797,11 +815,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam11-up">456565</span>
+											<span class="text-success" id="cam11-up">4676</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam11-down">453565</span>
+											<span class="text-success" id="cam11-down">2656</span>
 										</p>
 									</div>
 								</div>
@@ -829,11 +847,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam22-up">456565</span>
+											<span class="text-success" id="cam22-up">3656</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam22-down">453565</span>
+											<span class="text-success" id="cam22-down">2575</span>
 										</p>
 									</div>
 								</div>
@@ -861,11 +879,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam33-up">456565</span>
+											<span class="text-success" id="cam33-up">4673</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam33-down">453565</span>
+											<span class="text-success" id="cam33-down">2655</span>
 										</p>
 									</div>
 								</div>
@@ -893,11 +911,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam44-up">456565</span>
+											<span class="text-success" id="cam44-up">2654</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam44-down">453565</span>
+											<span class="text-success" id="cam44-down">1658</span>
 										</p>
 									</div>
 								</div>
@@ -925,11 +943,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam55-up">456565</span>
+											<span class="text-success" id="cam55-up">2343</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam55-down">453565</span>
+											<span class="text-success" id="cam55-down">1322</span>
 										</p>
 									</div>
 								</div>
@@ -958,11 +976,11 @@
 									<div class="">
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-up mx-2 text-success"></i> 
-											<span class="text-success" id="cam66-up">456565</span>
+											<span class="text-success" id="cam66-up">2665</span>
 										</p>
 										<p class="mb-0 fs-14 text-muted">
 											<i class="fas fa-arrow-circle-down mx-2 text-danger"></i> 
-											<span class="text-success" id="cam66-down">453565</span>
+											<span class="text-success" id="cam66-down">1565</span>
 										</p>
 									</div>
 								</div>
@@ -979,14 +997,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">20898</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">12654</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -994,7 +1012,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">453786</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">8563</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -2988,6 +3006,61 @@
         document.getElementById('cam55-down').textContent = formatNumber(cam55Down);
 		document.getElementById('cam66-up').textContent = formatNumber(cam66Up);
         document.getElementById('cam66-down').textContent = formatNumber(cam66Down);
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let dwara1Up = parseInt(document.getElementById('dwara1-up').textContent.replace(/,/g, ''));
+        let dwara1Down = parseInt(document.getElementById('dwara1-down').textContent.replace(/,/g, ''));
+        let dwara2Up = parseInt(document.getElementById('dwara2-up').textContent.replace(/,/g, ''));
+        let dwara2Down = parseInt(document.getElementById('dwara2-down').textContent.replace(/,/g, ''));
+        let dwara3Up = parseInt(document.getElementById('dwara3-up').textContent.replace(/,/g, ''));
+        let dwara3Down = parseInt(document.getElementById('dwara3-down').textContent.replace(/,/g, ''));
+        let dwara4Up = parseInt(document.getElementById('dwara4-up').textContent.replace(/,/g, ''));
+        let dwara4Down = parseInt(document.getElementById('dwara4-down').textContent.replace(/,/g, ''));
+        let dwara5Up = parseInt(document.getElementById('dwara5-up').textContent.replace(/,/g, ''));
+        let dwara5Down = parseInt(document.getElementById('dwara5-down').textContent.replace(/,/g, ''));
+		let dwara6Up = parseInt(document.getElementById('dwara6-up').textContent.replace(/,/g, ''));
+        let dwara6Down = parseInt(document.getElementById('dwara6-down').textContent.replace(/,/g, ''));
+
+        // Increment counts by random values between 1 and 10
+        dwara1Up += Math.floor(Math.random() * 10) + 1;
+        dwara1Down += Math.floor(Math.random() * 10) + 1;
+        dwara2Up += Math.floor(Math.random() * 10) + 1;
+        dwara2Down += Math.floor(Math.random() * 10) + 1;
+        dwara3Up += Math.floor(Math.random() * 10) + 1;
+        dwara3Down += Math.floor(Math.random() * 10) + 1;
+        dwara4Up += Math.floor(Math.random() * 10) + 1;
+        dwara4Down += Math.floor(Math.random() * 10) + 1;
+        dwara5Up += Math.floor(Math.random() * 10) + 1;
+        dwara5Down += Math.floor(Math.random() * 10) + 1;
+		dwara6Up += Math.floor(Math.random() * 10) + 1;
+        dwara6Down += Math.floor(Math.random() * 10) + 1;
+
+        // Update spans with formatted numbers
+        document.getElementById('dwara1-up').textContent = formatNumber(dwara1Up);
+        document.getElementById('dwara1-down').textContent = formatNumber(dwara1Down);
+        document.getElementById('dwara2-up').textContent = formatNumber(dwara2Up);
+        document.getElementById('dwara2-down').textContent = formatNumber(dwara2Down);
+        document.getElementById('dwara3-up').textContent = formatNumber(dwara3Up);
+        document.getElementById('dwara3-down').textContent = formatNumber(dwara3Down);
+        document.getElementById('dwara4-up').textContent = formatNumber(dwara4Up);
+        document.getElementById('dwara4-down').textContent = formatNumber(dwara4Down);
+        document.getElementById('dwara5-up').textContent = formatNumber(dwara5Up);
+        document.getElementById('dwara5-down').textContent = formatNumber(dwara5Down);
+		document.getElementById('dwara6-up').textContent = formatNumber(dwara6Up);
+        document.getElementById('dwara6-down').textContent = formatNumber(dwara6Down);
     }
 
     // Update counters every second
