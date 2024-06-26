@@ -1025,7 +1025,26 @@
 
 
     <!-- row closed -->
-
+<div class="full-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card custom-card overflow-hidden">
+					<div class="card-header border-bottom-0">
+						<div>
+							<h3 class="card-title mb-2 ">PEOPLE INSIDE TEMPLE</h3> <span class="d-block tx-12 mb-0 text-muted"></span>
+						</div>
+					</div>
+					<div class="card-body">
+						<div id="statistics2">
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
     <!-- row -->
     {{-- <div class="row row-sm">
 						<div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
@@ -3076,4 +3095,6 @@
 
     <!-- Internal Chart js -->
     <script src="{{ asset('assets/plugins/chartjs/Chart.bundle.min.js') }}"></script>
+
+	
 @endsection

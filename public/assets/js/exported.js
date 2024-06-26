@@ -251,6 +251,12 @@ function names() {
     }, 1000);
   }
 
+  if (document.querySelector('#statistics20') !== null) {
+    setTimeout(function () {
+      statistics20();
+    }, 1000);
+  }
+
   if (document.querySelector('#Viewers') !== null) {
     viewers();
   }
@@ -411,14 +417,107 @@ function chartCircle() {
 } // Project Budget chart //
 
 
+function statistics20() {
+  var options1 = {
+    series: [{
+      name: 'PEOPLE ZONE',
+      data: [75500, 25000, 45006, 15000]
+    }, ],
+    chart: {
+      type: 'bar',
+      height: 280
+    },
+    grid: {
+      borderColor: '#f2f6f7'
+    },
+    colors: [myVarVal || "#38cab3", "rgba(153,153,153,0.85)"],
+    plotOptions: {
+      bar: {
+        colors: {
+          ranges: [{
+            from: -100,
+            to: -46,
+            color: '#ebeff5'
+          }, {
+            from: -45,
+            to: 0,
+            color: '#ebeff5'
+          }]
+        },
+        columnWidth: '40%'
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      show: true,
+      width: 4,
+      colors: ['transparent']
+    },
+    legend: {
+      show: true,
+      position: 'top'
+    },
+    yaxis: {
+      title: {
+        text: 'PEOPLE CROWD MAPPING',
+        style: {
+          color: '#adb5be',
+          fontSize: '14px',
+          fontFamily: 'poppins, sans-serif',
+          fontWeight: 600,
+          cssClass: 'apexcharts-yaxis-label'
+        }
+      },
+    
+      labels: {
+        formatter: function (value) {
+          // Custom values
+          const customLabels = [0, 10000, 20000, 40000,60000, 80000, 100000];
+          return customLabels.includes(value) ? value : '';
+        }
+      },
+      min: 0,
+      max: 100000,
+      tickAmount: 5
+    },
+
+    xaxis: {
+      type: 'month',
+      categories: ['NORTH ZONE','SOUTH ZONE','EAST ZONE','WEST ZONE'],
+      axisBorder: {
+        show: true,
+        color: 'rgba(119, 119, 142, 0.05)',
+        offsetX: 0,
+        offsetY: 0
+      },
+      axisTicks: {
+        show: true,
+        borderType: 'solid',
+        color: 'rgba(119, 200, 142, 0.05)',
+        width: 6,
+        offsetX: 0,
+        offsetY: 0
+      },
+      labels: {
+        rotate: -90
+      }
+    }
+  };
+  document.getElementById('statistics20').innerHTML = '';
+  var chart1 = new ApexCharts(document.querySelector("#statistics20"), options1);
+  chart1.render();
+} //Visitors chart
+
 function statistics1() {
   var options1 = {
     series: [{
       name: 'IN DEVOTEES',
-      data: [80000, 40000, 60000, 30000]
+      data: [44, 42, 57, 86]
     }, {
       name: 'OUT DEVOTEES',
-      data: [70000, 35000, 40000, 24000]
+      data: [34, 22, 37, 56]
     }],
     chart: {
       type: 'bar',
@@ -458,7 +557,7 @@ function statistics1() {
     },
     yaxis: {
       title: {
-        text: 'No. Of People',
+        text: 'Growth',
         style: {
           color: '#adb5be',
           fontSize: '14px',
@@ -468,19 +567,14 @@ function statistics1() {
         }
       },
       labels: {
-        formatter: function (value) {
-          // Custom values
-          const customLabels = [0, 10000, 20000, 40000,60000, 80000, 100000];
-          return customLabels.includes(value) ? value : '';
+        formatter: function formatter(y) {
+          return y.toFixed(0) + "";
         }
-      },
-      min: 0,
-      max: 100000,
-      tickAmount: 5
+      }
     },
     xaxis: {
       type: 'month',
-      categories: ['SINGHA DWARA','VYAGRA DWARA','HASTI DWARA','ASHWA DWARA'],
+      categories: ['SINGHA DWARA','VYAGHRA DWARA','HASTI DWARA','ASHWA DWARA'],
       axisBorder: {
         show: true,
         color: 'rgba(119, 119, 142, 0.05)',
@@ -586,6 +680,99 @@ function viewers() {
   }, 300);
 } // index1
 //Sales Activity
+function statistics1() {
+  var options1 = {
+    series: [{
+      name: 'IN DEVOTEES',
+      data: [80000, 40000, 60000, 30000]
+    }, {
+      name: 'OUT DEVOTEES',
+      data: [70000, 35000, 40000, 24000]
+    }],
+    chart: {
+      type: 'bar',
+      height: 280
+    },
+    grid: {
+      borderColor: '#f2f6f7'
+    },
+    colors: [myVarVal || "#38cab3", "rgba(153,153,153,0.85)"],
+    plotOptions: {
+      bar: {
+        colors: {
+          ranges: [{
+            from: -100,
+            to: -46,
+            color: '#ebeff5'
+          }, {
+            from: -45,
+            to: 0,
+            color: '#ebeff5'
+          }]
+        },
+        columnWidth: '40%'
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      show: true,
+      width: 4,
+      colors: ['transparent']
+    },
+    legend: {
+      show: true,
+      position: 'top'
+    },
+    yaxis: {
+      title: {
+        text: 'No. Of People',
+        style: {
+          color: '#adb5be',
+          fontSize: '14px',
+          fontFamily: 'poppins, sans-serif',
+          fontWeight: 600,
+          cssClass: 'apexcharts-yaxis-label'
+        }
+      },
+      labels: {
+        formatter: function (value) {
+          // Custom values
+          const customLabels = [0, 10000, 20000, 40000,60000, 80000, 100000];
+          return customLabels.includes(value) ? value : '';
+        }
+      },
+      min: 0,
+      max: 100000,
+      tickAmount: 5
+    },
+    xaxis: {
+      type: 'month',
+      categories: ['SINGHA DWARA','VYAGRA DWARA','HASTI DWARA','ASHWA DWARA'],
+      axisBorder: {
+        show: true,
+        color: 'rgba(119, 119, 142, 0.05)',
+        offsetX: 0,
+        offsetY: 0
+      },
+      axisTicks: {
+        show: true,
+        borderType: 'solid',
+        color: 'rgba(119, 200, 142, 0.05)',
+        width: 6,
+        offsetX: 0,
+        offsetY: 0
+      },
+      labels: {
+        rotate: -90
+      }
+    }
+  };
+  document.getElementById('statistics1').innerHTML = '';
+  var chart1 = new ApexCharts(document.querySelector("#statistics1"), options1);
+  chart1.render();
+} //Visitors chart
 
 
 function statistics2() {
@@ -593,7 +780,7 @@ function statistics2() {
     var options = {
       series: [{
         name: "Sales",
-        data: [32, 15, 63, 51, 136, 62, 99, 42, 178, 76, 32, 180]
+        data: [3200, 15000, 63000, 51000, 13600, 6200, 9900, 42000, 17800, 76000, 32000, 18000,45000,34300,34340,34350,35450,3530]
       }],
       chart: {
         height: 280,
@@ -630,7 +817,7 @@ function statistics2() {
       colors: [myVarVal || "#1fc5db"],
       yaxis: {
         title: {
-          text: 'Growth',
+          text: 'No. Of People',
           style: {
             color: '#adb5be',
             fontSize: '14px',
@@ -640,14 +827,19 @@ function statistics2() {
           }
         },
         labels: {
-          formatter: function formatter(y) {
-            return y.toFixed(0) + "";
+          formatter: function (value) {
+            // Custom values
+            const customLabels = [0, 10000, 20000, 40000,60000, 80000, 100000];
+            return customLabels.includes(value) ? value : '';
           }
-        }
+        },
+        min: 0,
+        max: 100000,
+        tickAmount: 5
       },
       xaxis: {
         type: 'number',
-        categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+        categories: ['6AM', '7AM', '8AM', '9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM','6PM','7PM','8PM','9PM','10PM','11PM'],
         axisBorder: {
           show: true,
           color: 'rgba(119, 119, 142, 0.05)',

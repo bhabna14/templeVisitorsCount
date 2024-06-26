@@ -138,6 +138,9 @@ Route::get('/', function () {
 Route::get('/queuemanagement', function () {
     return view('livewire.queuemanagement');
 });
+Route::get('/parikrama', function () {
+    return view('livewire.parikrama');
+});
 Route::get('aboutus', Aboutus::class);
 Route::get('accordion', Accordion::class);
 Route::get('alerts', Alerts::class);

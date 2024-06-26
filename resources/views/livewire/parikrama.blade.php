@@ -14,7 +14,7 @@
                                 <div class="ps-4 pt-4 pe-3 pb-4">
                                     <div class="">
                                     </div>
-                                    <h6 class="mb-2 tx-12" style="color: white">SINGHA DWARA</h6>
+                                    <h6 class="mb-2 tx-12" style="color: white">NORTH ZONE</h6>
                                     <div class="pb-0 mt-0">
                                         <div class="">
                                             <p class="mb-0 fs-14 text-muted">
@@ -22,17 +22,13 @@
                                                 <span style="font-size: 17px;" id="singha-up"
                                                     class="text-white">20000</span>
                                             </p>
-                                            <p class="mb-0 fs-14 text-muted">
-                                                <i class="fas fa-arrow-circle-down mx-2 text-danger"></i>
-                                                <span style="font-size: 17px;" id="singha-down"
-                                                    class="text-white">15000</span>
-                                            </p>
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <img style="height: 100%;width:100%" src="{{ asset('assets/img/visitor/image1.png') }}">
+                                <img style="height: 100%;width:100%" src="{{ asset('assets/img/visitor/1.png') }}">
                             </div>
                         </div>
                     </div>
@@ -43,7 +39,7 @@
                             <div class="col-8" id="card2"  style="background-color: #38CAB3 !important">
                                 <div class="ps-4 pt-4 pe-3 pb-4">
                                     <div class="">
-                                        <h6 class="mb-2 tx-12" style="color: white">VYAGHRA DWARA</h6>
+                                        <h6 class="mb-2 tx-12" style="color: white">SOUTH ZONE</h6>
                                     </div>
                                     <div class="pb-0 mt-0">
                                         <div class="">
@@ -51,17 +47,14 @@
                                                     class="fas fa-arrow-circle-up mx-2 text-success"></i><span
                                                     style="font-size: 17px" id="singha-up1" class="text-white">15000</span>
                                             </p>
-                                            <p class="mb-0 fs-14 text-muted"><i
-                                                    class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span
-                                                    style="font-size: 17px" id="singha-down1"
-                                                    class="text-white">10000</span> </p>
+                                        
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="col-4">
-                                <img src ="{{ asset('assets/img/visitor/image2.png') }}">
+                                <img src ="{{ asset('assets/img/visitor/2.jpeg') }}">
                             </div>
                         </div>
                     </div>
@@ -72,7 +65,7 @@
                             <div class="col-8" id="card3"  style="background-color: #38CAB3 !important">
                                 <div class="ps-4 pt-4 pe-3 pb-4">
                                     <div class="">
-                                        <h6 class="mb-2 tx-12" style="color: white">HASTI DWARA</h6>
+                                        <h6 class="mb-2 tx-12" style="color: white">EAST ZONE</h6>
                                     </div>
                                     <div class="pb-0 mt-0">
                                         <div class="">
@@ -80,10 +73,7 @@
                                                     class="fas fa-arrow-circle-up mx-2 text-success"></i><span
                                                     style="font-size: 17px" id="singha-up2" class="text-white">10000</span>
                                             </p>
-                                            <p class="mb-0 fs-14 text-muted"><i
-                                                    class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span
-                                                    style="font-size: 17px" id="singha-down2" class="text-white">7000</span>
-                                            </p>
+                                         
                                         </div>
 
                                     </div>
@@ -101,7 +91,7 @@
                             <div class="col-8" id="card4"  style="background-color: #38CAB3 !important">
                                 <div class="ps-4 pt-4 pe-3 pb-4">
                                     <div class="">
-                                        <h6 class="mb-2 tx-12" style="color: white">ASHWA DWARA</h6>
+                                        <h6 class="mb-2 tx-12" style="color: white">WEST ZONE</h6>
                                     </div>
                                     <div class="pb-0 mt-0">
                                         <div class="">
@@ -109,10 +99,7 @@
                                                     class="fas fa-arrow-circle-up mx-2 text-success"></i><span
                                                     style="font-size: 17px" id="singha-up3" class="text-white">10000</span>
                                             </p>
-                                            <p class="mb-0 fs-14 text-muted"><i
-                                                    class="fas fa-arrow-circle-down mx-2 text-danger"></i> <span
-                                                    style="font-size: 17px" id="singha-down3" class="text-white">7000</span>
-                                            </p>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +125,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <div id="statistics1">
+                    <div id="statistics20">
 
                     </div>
                 </div>
@@ -146,41 +133,51 @@
             <div class="card mg-b-20">
                 <div class="card-body">
                     <div class="main-content-label mg-b-5">
-                        <h3 class="card-title mb-2 ">DWARA WISE PEOPLE COUNT</h3> <span class="d-block tx-12 mb-0 text-muted"></span>
+                        <h3 class="card-title mb-2 ">ZONE WISE PEOPLE COUNT</h3> <span class="d-block tx-12 mb-0 text-muted"></span>
 
                     </div>
                     <div class="d-md-flex">
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center" > 
                             <div class="">
                                 <p class="data-attributes">
-                                    <span data-peity='{ "fill": ["#6c25be", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 10, "radius": 40 }'>5/7</span>
+                                    <span data-peity='{ "fill": ["#6c25be", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 10, "radius": 40 }'>6/7</span>
+                                </p>
+                                <p>EAST ZONE
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
-                                    <span data-peity='{ "fill": ["#19c0c0", "rgba(67, 87, 133, .09)"],"height": 60, "width": 60, "innerRadius": 14, "radius": 36 }'>2/7</span>
+                                    <span data-peity='{ "fill": ["#19c0c0", "rgba(67, 87, 133, .09)"],"height": 60, "width": 60, "innerRadius": 16, "radius": 36 }'>4/7</span>
+                                </p>
+                                <p>WEST ZONE
+
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
-                                    <span data-peity='{ "fill": ["#00b9ff", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 16, "radius": 32 }'>3/7</span>
+                                    <span data-peity='{ "fill": ["#00b9ff", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 18, "radius": 38 }'>5/7</span>
+                                </p>
+                                <p>NORTH ZONE
+
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
-                                    <span data-peity='{ "fill": ["#ff8819 ", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 18, "radius": 28 }'>4/7</span>
+                                    <span data-peity='{ "fill": ["#ff8819 ", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 18, "radius": 40 }'>4/7</span>
+                                </p>
+                                <p>SOUTH ZONE
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>
         </div>
       
         <!-- </div> -->
