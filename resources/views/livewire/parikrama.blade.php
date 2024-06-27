@@ -28,7 +28,8 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <img style="height: 100%;width:100%" src="{{ asset('assets/img/visitor/1.png') }}">
+                                <img style="height: 100%;width:100%" src="{{ asset('assets/img/visitor/image1.png') }}">
+
                             </div>
                         </div>
                     </div>
@@ -54,7 +55,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <img src ="{{ asset('assets/img/visitor/2.jpeg') }}">
+                                <img src ="{{ asset('assets/img/visitor/image2.png') }}">
                             </div>
                         </div>
                     </div>
