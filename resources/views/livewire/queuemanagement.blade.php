@@ -150,28 +150,28 @@
 
                     </div>
                     <div class="d-md-flex">
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
                                     <span data-peity='{ "fill": ["#6c25be", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 10, "radius": 40 }'>5/7</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
                                     <span data-peity='{ "fill": ["#19c0c0", "rgba(67, 87, 133, .09)"],"height": 60, "width": 60, "innerRadius": 14, "radius": 36 }'>2/7</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
                                     <span data-peity='{ "fill": ["#00b9ff", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 16, "radius": 32 }'>3/7</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="mg-r-20 mg-t-10">
+                        <div class="mg-r-20 mg-t-10 col-md-3 text-center">
                             <div class="">
                                 <p class="data-attributes">
                                     <span data-peity='{ "fill": ["#ff8819 ", "rgba(67, 87, 133, .09)"], "height": 60, "width": 60, "innerRadius": 18, "radius": 28 }'>4/7</span>

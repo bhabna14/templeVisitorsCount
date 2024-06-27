@@ -8,22 +8,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">109883</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="enter-up" class="text-success">109883</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">66094</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="exit-up" class="text-success">66094</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
-				<h6 style="    margin-top: 12px;">People Exited Temple</h6 >
+				<h6 style="margin-top: 12px;">People Exited Temple</h6 >
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">36984</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="inside-up" class="text-success">36984</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -53,7 +53,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara1-up">10897</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="main-up">10897</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -71,7 +71,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara2-up">9764</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="beharan-up">9764</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -88,7 +88,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara3-up">6234</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="anada-up">6234</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -106,7 +106,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara4-up">5657</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="laxmi-up">5657</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -124,7 +124,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara5-up">4968</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="bimala-up">4968</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -142,7 +142,7 @@
 								</div>
 								<div class="ms-auto my-auto">
 									<div class="d-flex">
-										<span class="me-4 mt-1 font-weight-semibold tx-16" id="dwara6-up">8563</span><div class="live-indicator7">
+										<span class="me-4 mt-1 font-weight-semibold tx-16" id="jagamohan-up">8563</span><div class="live-indicator7">
 											<span class="dot"></span>
 											<span>Live</span>
 										</div>
@@ -276,14 +276,14 @@
 		
 		<div class="row row-sm mt-4">
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">14897</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="enter1-up" class="text-success">14897</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
 					<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 				</div>
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">4245</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="exit1-up" class="text-success">4245</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
@@ -291,7 +291,7 @@
 				</div>
 	
 				<div class="col-md-4 text-center">
-					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">10897</span> </p><div class="live-indicator6">
+					<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="inside1-up" class="text-success">10897</span> </p><div class="live-indicator6">
 						<span class="dot"></span>
 						<span>Live</span>
 					</div>
@@ -448,14 +448,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">11793</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="enter2-up" class="text-success">11793</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">2849</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="exit2-up" class="text-success">2849</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -463,7 +463,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">9764</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="inside2-up" class="text-success">9764</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -648,14 +648,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">9958</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="enter3-up" class="text-success">9958</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">3242</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="exit3-up" class="text-success">3242</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -663,7 +663,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">6234</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="inside3-up" class="text-success">6234</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -997,14 +997,14 @@
 		</div>
 		<div class="row row-sm mt-4">
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="singha-up" class="text-success">20898</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="enter4-up" class="text-success">20898</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
 				<h6 style="    margin-top: 12px;">People Entered Temple</h6 >
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="vyaghra-up" class="text-success">12654</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="exit4-up" class="text-success">12654</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -1012,7 +1012,7 @@
 			</div>
 
 			<div class="col-md-4 text-center">
-				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="hasti-up" class="text-success">8563</span> </p><div class="live-indicator6">
+				<p class="mb-0 fs-14 text-muted" style="margin-right: 38px;"><span id="inside4-up" class="text-success">8563</span> </p><div class="live-indicator6">
 					<span class="dot"></span>
 					<span>Live</span>
 				</div>
@@ -3080,6 +3080,253 @@
         document.getElementById('dwara5-down').textContent = formatNumber(dwara5Down);
 		document.getElementById('dwara6-up').textContent = formatNumber(dwara6Up);
         document.getElementById('dwara6-down').textContent = formatNumber(dwara6Down);
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let enterUp = parseInt(document.getElementById('enter-up').textContent.replace(/,/g, ''));
+       
+        let exitUp = parseInt(document.getElementById('exit-up').textContent.replace(/,/g, ''));
+       
+        let insideUp = parseInt(document.getElementById('inside-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        enterUp += Math.floor(Math.random() * 10) + 1;
+       
+        exitUp += Math.floor(Math.random() * 10) + 1;
+       
+        insideUp += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('enter-up').textContent = formatNumber(enterUp);
+        
+        document.getElementById('exit-up').textContent = formatNumber(exitUp);
+       
+        document.getElementById('inside-up').textContent = formatNumber(insideUp);
+       
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let enter1Up = parseInt(document.getElementById('enter1-up').textContent.replace(/,/g, ''));
+       
+        let exit1Up = parseInt(document.getElementById('exit1-up').textContent.replace(/,/g, ''));
+       
+        let inside1Up = parseInt(document.getElementById('inside1-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        enter1Up += Math.floor(Math.random() * 10) + 1;
+       
+        exit1Up += Math.floor(Math.random() * 10) + 1;
+       
+        inside1Up += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('enter1-up').textContent = formatNumber(enter1Up);
+        
+        document.getElementById('exit1-up').textContent = formatNumber(exit1Up);
+       
+        document.getElementById('inside1-up').textContent = formatNumber(inside1Up);
+       
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let enter2Up = parseInt(document.getElementById('enter2-up').textContent.replace(/,/g, ''));
+       
+        let exit2Up = parseInt(document.getElementById('exit2-up').textContent.replace(/,/g, ''));
+       
+        let inside2Up = parseInt(document.getElementById('inside2-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        enter2Up += Math.floor(Math.random() * 10) + 1;
+       
+        exit2Up += Math.floor(Math.random() * 10) + 1;
+       
+        inside2Up += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('enter2-up').textContent = formatNumber(enter2Up);
+        
+        document.getElementById('exit2-up').textContent = formatNumber(exit2Up);
+       
+        document.getElementById('inside2-up').textContent = formatNumber(inside2Up);
+       
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let enter3Up = parseInt(document.getElementById('enter3-up').textContent.replace(/,/g, ''));
+       
+        let exit3Up = parseInt(document.getElementById('exit3-up').textContent.replace(/,/g, ''));
+       
+        let inside3Up = parseInt(document.getElementById('inside3-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        enter3Up += Math.floor(Math.random() * 10) + 1;
+       
+        exit3Up += Math.floor(Math.random() * 10) + 1;
+       
+        inside3Up += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('enter3-up').textContent = formatNumber(enter3Up);
+        
+        document.getElementById('exit3-up').textContent = formatNumber(exit3Up);
+       
+        document.getElementById('inside3-up').textContent = formatNumber(inside3Up);
+       
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let enter4Up = parseInt(document.getElementById('enter4-up').textContent.replace(/,/g, ''));
+       
+        let exit4Up = parseInt(document.getElementById('exit4-up').textContent.replace(/,/g, ''));
+       
+        let inside4Up = parseInt(document.getElementById('inside4-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        enter4Up += Math.floor(Math.random() * 10) + 1;
+       
+        exit4Up += Math.floor(Math.random() * 10) + 1;
+       
+        inside4Up += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('enter4-up').textContent = formatNumber(enter4Up);
+        
+        document.getElementById('exit4-up').textContent = formatNumber(exit4Up);
+       
+        document.getElementById('inside4-up').textContent = formatNumber(inside4Up);
+       
+    }
+
+    // Update counters every second
+    setInterval(updateCounters, 1000);
+</script>
+
+
+<script>
+    // Function to format numbers with commas
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    // Function to update counters every second
+    function updateCounters() {
+        // Get current values from spans
+        let mainUp = parseInt(document.getElementById('main-up').textContent.replace(/,/g, ''));
+       
+        let beharanUp = parseInt(document.getElementById('beharan-up').textContent.replace(/,/g, ''));
+       
+        let anadaUp = parseInt(document.getElementById('anada-up').textContent.replace(/,/g, ''));
+
+		let laxmiUp = parseInt(document.getElementById('laxmi-up').textContent.replace(/,/g, ''));
+		let bimalaUp = parseInt(document.getElementById('bimala-up').textContent.replace(/,/g, ''));
+		let jagamohanUp = parseInt(document.getElementById('jagamohan-up').textContent.replace(/,/g, ''));
+      
+
+        // Increment counts by random values between 1 and 10
+        mainUp += Math.floor(Math.random() * 10) + 1;
+       
+        beharanUp += Math.floor(Math.random() * 10) + 1;
+       
+        anadaUp += Math.floor(Math.random() * 10) + 1;
+
+		laxmiUp += Math.floor(Math.random() * 10) + 1;
+       
+        bimalaUp += Math.floor(Math.random() * 10) + 1;
+       
+       jagamohanUp += Math.floor(Math.random() * 10) + 1;
+       
+      
+
+        // Update spans with formatted numbers
+        document.getElementById('main-up').textContent = formatNumber(mainUp);
+        
+        document.getElementById('beharan-up').textContent = formatNumber(beharanUp);
+       
+        document.getElementById('anada-up').textContent = formatNumber(anadaUp);
+
+		document.getElementById('laxmi-up').textContent = formatNumber(laxmiUp);
+        
+        document.getElementById('bimala-up').textContent = formatNumber(bimalaUp);
+       
+        document.getElementById('jagamohan-up').textContent = formatNumber(jagamohanUp);
+       
     }
 
     // Update counters every second
